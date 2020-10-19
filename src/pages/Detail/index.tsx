@@ -41,7 +41,7 @@ const Detail = () => {
     
     function handleMailComposer(){
      MailComposer.composeAsync({
-       subject: 'Interesse na coleta de residuos',
+       subject: 'Interesse em receber doação',
        recipients: [ data.point.email],
      })
     }
